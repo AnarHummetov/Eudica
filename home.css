@@ -1,0 +1,645 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+
+}
+
+html,body{
+  height: 100%;
+  background-color: rgb(242, 245, 249);
+}
+
+ul,ol{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.container{
+ width: 100%;
+ height: 100%;
+ background: linear-gradient( to right, rgba(89, 7, 196, 0.877), rgba(212, 53, 185, 0.7)),
+ url(./7e44cee3-4f29-4249-86df-b30dcda1f96e.jpg);
+    background-size: cover;
+}
+
+.head{
+
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 0 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+.hleft a i{
+  color: white;
+  margin: 0px 14px;
+}
+
+.hleft select{
+  background: none;
+  border: none;
+  color: white;
+  margin: 0px 12px;
+}
+
+.hright ul li{
+    display: inline;
+    color: white;
+}
+
+.hright ul li a{
+  color: white;
+  margin: 0px 12px;
+  font-size: 13px;
+  text-decoration: none;
+
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 0px;
+   
+}
+
+.proper{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.proper a{
+  display: flex;
+justify-content: center;
+align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+border-radius: 50%;
+  color: white;
+  width: 32px;
+  height: 32px;
+  text-decoration: none;
+  margin: 0px 5px;
+}
+.nav-2{
+  width: 100%;
+  margin: 0;
+  padding: 12px 0;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-2 ul{
+  margin-left: 78px;
+}
+
+.nav-2 ul li{
+display: inline;
+margin: 0 10px;
+
+}
+
+.nav-2 a{
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+}
+.nav-2 a:hover{
+  color: brown;
+}
+
+.nav-2 button{
+  background-color: rgb(255, 53, 53);
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 15px;
+  padding: 12px;
+margin-right: 68px;
+}
+
+.searcharea{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+    width: 90%;
+    margin: 0 auto;
+    padding: 100px 0px;
+}
+
+.searcharea h1{
+  margin-bottom: 5px;
+  color: white;
+}
+.searcharea h4{
+  margin-bottom: 48px;
+  
+  color: white;
+}
+
+.header h4{
+  margin-left: 36px;
+}
+
+.inp{
+  width: 80%;
+  display:flex;
+}
+.inp input{
+
+  padding: 16px;
+  border: none;
+  width: 80%;
+  
+}
+
+#inpborder{
+  border-right: 1px solid whitesmoke;
+
+}
+.inp select{
+  padding: 16px;
+  border: none;
+  width: 80%;
+}
+.inp .btn{
+  background-color: rgb(255, 53, 53);
+  color:white
+}
+.container2{
+  width: 100%;
+
+  padding: 0 12px;
+ 
+  display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin: 48px 0;
+}
+
+.title{
+
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.title h2{
+  margin-bottom: 10px;
+  justify-content: center;
+ align-items: center;
+ color: rgb(75, 93, 115);
+ font-size: 32px;
+}
+
+.title p{
+  color: rgb(106, 134, 169);
+  font-size: 16px;
+}
+
+.categories{
+  
+ 
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+padding: 24px;
+}
+.row{
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.icon{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+align-items: center;
+margin: 24px;
+padding: 24px 17px;
+border: 1px solid #e0e8f3;
+border-radius: 6px;
+overflow: hidden;
+box-shadow: 0 10px 15px rgba(8, 21, 66, 0.06);
+background-color: #fff;
+
+}
+.icon a{
+  margin-top: 12px;
+  font-size: 16px;
+  line-height: 21px;
+  color: rgb(46, 56, 77);
+}
+.icon i{
+  font-size: 40px;
+  background: linear-gradient( rgba(89, 7, 196, 0.877), rgba(212, 53, 185, 0.7));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bg-color{
+  position: absolute;
+  top: 40%;
+  border-radius: 50%;
+  width: 95%;
+  height: 130%;
+  background-color: rgba(170, 170, 170, 0.1);
+}
+.container3{
+  width: 100%;
+  background-color: #eeeeee;;
+  padding: 48px 0;
+  display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.course-classes{
+  width: 90%;
+  
+  padding: 32px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.card{
+  width: 22%;
+  margin: 0 12px;
+  border: 1px solid rgb(224, 232, 243);
+  background-color: #fff;
+}
+
+.card-img{
+  width: 100%;
+  position: relative;
+  
+}
+
+.card-img img{
+  width: 100%;
+}
+
+.card-icons{
+  font-size: 14px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.card-icons i{
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  color: #fff;
+}
+
+.card-prices{
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  background-color: rgb(248, 66, 66);
+  color: #fff;
+  padding: 5px;
+    border-radius: 3px;
+}
+
+.card-body{
+  padding: 24px;
+}
+
+.card-title{
+color: rgb(75, 93, 115);
+}
+
+.card-title h4{
+  width: max-content;
+  font-size: 20px;
+  color: rgb(46, 56, 77);
+  margin-bottom: 12px;
+}
+
+.card-title p{
+  margin-bottom: 16px;
+  font-size: 16px;
+    line-height: 21px;
+}
+
+.card-list ul{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 18px 0;
+    font-size: 13px;
+}
+.card-list li{
+margin-bottom: 8px;
+width: 50%;
+}
+
+.card-footer{
+  padding: 16px 24px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgb(224, 232, 243);
+}
+
+.month{
+  padding: 6px 12px;
+  border: 1px solid #e8ebf3;
+  color: rgb(95, 104, 119);
+  font-size: 13px;
+  border-radius: 3px;
+}
+
+.hour{
+  padding: 6px 12px;
+  background-color: rgb(236, 41, 107);
+  border: 1px solid rgb(236, 41, 107);
+  border-radius: 3px;
+  font-size: 13px;
+  color: #fff;
+}
+
+.container4{
+  width: 100%;
+  /* height: 100%; */
+  background: url(./banner5.jpg);
+  background-size: cover;
+}
+
+.banner{
+  width: 100%;
+  height: 100%;
+  padding: 48px 0;
+  background: rgba(5, 36, 86, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.totals{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.total{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.total i{
+  padding: 23px 23px;
+  margin-bottom: 16px;
+  background-color: rgba(21, 17, 17, 0.4);
+  font-size: 28px;
+  color: #fff;
+  border-radius: 50%;
+}
+.total h5{
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.total h2{
+  color: #fff;
+  font-size: 35px;
+  margin-top: 10px;
+}
+
+.container5{
+  width: 100%;
+  background-color: #eeeeee;
+  padding: 48px 0;
+  display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.course-select{
+  margin: 32px 0;
+}
+
+.course-select a{
+  font-size: 14px;
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: rgb(216, 222, 230);
+  color: rgb(46, 56, 77);
+  border-radius: 3px;
+}
+
+.classes-to-join{
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.class{
+  width: 31%;
+  margin: 12px;
+  border: 1px solid rgb(224, 232, 243);
+  background-color: #fff;
+}
+
+.class-img{
+  width: 100%;
+  position: relative;
+  
+}
+
+.class-img img{
+  width: 100%;
+}
+
+.class-icon{
+  font-size: 14px;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  padding: 5px;
+}
+
+.class-icon a{
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  color: #fff;
+}
+
+.class-prices{
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  background-color: rgb(248, 66, 66);
+  color: #fff;
+  padding: 5px;
+    border-radius: 3px;
+}
+
+.class-body{
+  padding: 24px;
+}
+
+.class-title{
+  width: 100%;
+color: rgb(75, 93, 115);
+}
+
+.class-title h4{
+  width: max-content;
+  font-size: 20px;
+  color: #2e384d;
+  margin-bottom: 8px;
+}
+
+.class-title p{
+  margin-bottom: 16px;
+  font-size: 16px;
+    line-height: 21px;
+}
+
+.class-list ul{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-bottom: 8px;
+    justify-content: space-between;
+  
+    font-size: 13px;
+}
+.class-list li{
+
+width: 50%;
+}
+
+.class-time{
+  padding: 16px 24px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgb(224, 232, 243);
+    color: rgb(75, 93, 115);
+}
+
+.class-time p{
+  font-size: 13px;
+  padding: 16px 24px;
+}
+.class-join-btn{
+  padding: 16px 24px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgb(224, 232, 243);
+}
+
+.class button{
+  width: 100%;
+  background-color: rgb(238, 29, 98);
+  border: rgb(236, 41, 107);
+  border-radius: 3px;
+  padding: 10px 12px;
+  color: #fff;
+  font-size: 13px;
+}
+
+.container6{
+  width: 100%;
+  background: url(banner3.jpg);
+}
+
+.banner2{
+  padding: 48px 0;
+  background: rgba(5, 36, 86, 0.9);
+}
+.banner2 .title{
+  padding-bottom: 32px;
+}
+
+.box{
+  width: 100%;
+  display: flex;
+
+}
+.column1{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+align-items: center;
+margin-bottom: 24px;
+}
+
+.icon-2{
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 24px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.title-2 h4{
+  font-size: 25px;
+  color: #fff;
+}
+
+.title-2 p{
+  width: 70%;
+  font-size: 13px;
+  color: #fff;
+}
+
+.img-clients{
+  position: relative;
+  width: 360px;
+  height: 250px;
+  background-image: url(0-1.jpg);
+  background-position: center;
+}
+
+.column2 img{
+  width: 360px;
+  height: 250px;
+  position: absolute;
+  top: 20px;
+  left: 180px;
+}
